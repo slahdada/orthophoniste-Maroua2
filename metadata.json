@@ -1,0 +1,6 @@
+{
+  "name": "Cabinet d'orthophonie Belgaied Maroua",
+  "description": "Application professionnelle de gestion complète de cabinet d'orthophonie : dossiers patients, planning, protocoles de soins, créances et télé-transmission.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

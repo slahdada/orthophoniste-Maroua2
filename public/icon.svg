@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="orthoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284c7" />
+      <stop offset="50%" stop-color="#0d9488" />
+      <stop offset="100%" stop-color="#0f766e" />
+    </linearGradient>
+    <filter id="dropShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="8" stdDeviation="16" flood-color="#0f172a" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+  <rect width="512" height="512" rx="128" fill="url(#orthoGrad)"/>
+  <!-- Speech wave & caduceus motif -->
+  <g transform="translate(256, 256)" filter="url(#dropShadow)">
+    <circle r="150" fill="#ffffff" fill-opacity="0.12"/>
+    <circle r="115" fill="#ffffff" fill-opacity="0.2"/>
+    <!-- Medical Cross & Sound Waves -->
+    <path d="M-24 -80 H24 V-24 H80 V24 H24 V80 H-24 V24 H-80 V-24 H-24 Z" fill="#ffffff"/>
+    <!-- Speech sound arc rings -->
+    <path d="M100 -50 A 110 110 0 0 1 100 50" stroke="#ffffff" stroke-width="16" stroke-linecap="round" fill="none"/>
+    <path d="M130 -80 A 155 155 0 0 1 130 80" stroke="#ffffff" stroke-width="14" stroke-linecap="round" fill="none" opacity="0.85"/>
+    <path d="M-100 -50 A 110 110 0 0 0 -100 50" stroke="#ffffff" stroke-width="16" stroke-linecap="round" fill="none"/>
+    <path d="M-130 -80 A 155 155 0 0 0 -130 80" stroke="#ffffff" stroke-width="14" stroke-linecap="round" fill="none" opacity="0.85"/>
+  </g>
+</svg>
